@@ -14,7 +14,12 @@ languages.each do |k, v|
       new_hash[language].merge!({:style => [:oo]})
       elsif language == :clojure
       new_hash[language].merge!({:style => [:functional]})
-    end
+      elsif language == :erlang
+      new_hash[language].merge!({:style => [:functional]})
+      elsif language == :scala
+      new_hash[language].merge!({:style => [:functional]})
+      
+      end
   end
 end
 new_hash
