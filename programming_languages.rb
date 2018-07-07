@@ -7,7 +7,7 @@ languages.each do |k, v|
     if language ==:ruby 
       new_hash[language].merge!({:style => [:oo]})
       elsif language == :javascript 
-      new_hash[language].merge!({:style => [:oo, 
+      new_hash[language].merge!({:style => [:oo, :functional
     end
   end
 end
