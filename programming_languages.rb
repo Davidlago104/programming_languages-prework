@@ -10,6 +10,8 @@ languages.each do |k, v|
       new_hash[language].merge!({:style => [:oo, :functional]})
       elsif language == :python
       new_hash[language].merge!({:style => [:oo]})
+      elsif language == :java 
+      new_hash[language].merge!({:style => [:oo]})
     end
   end
 end
