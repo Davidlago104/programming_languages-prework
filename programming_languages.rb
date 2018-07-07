@@ -13,7 +13,7 @@ languages.each do |k, v|
       elsif language == :java 
       new_hash[language].merge!({:style => [:oo]})
       elsif language == :clojure
-      new_hash[language].merge!({:style => [:functionl]})
+      new_hash[language].merge!({:style => [:functional]})
     end
   end
 end
