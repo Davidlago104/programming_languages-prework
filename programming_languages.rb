@@ -14,7 +14,6 @@ languages.each do |k, v|
       new_hash[language].merge!({:style => [:oo]})
       elsif language == :clojure
       new_hash[language].merge!({:style => [:functionl]})
-      })
     end
   end
 end
