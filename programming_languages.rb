@@ -18,7 +18,6 @@ languages.each do |k, v|
       new_hash[language].merge!({:style => [:functional]})
       elsif language == :scala
       new_hash[language].merge!({:style => [:functional]})
-      
       end
   end
 end
